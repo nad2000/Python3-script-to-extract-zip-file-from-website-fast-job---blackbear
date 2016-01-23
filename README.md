@@ -30,3 +30,19 @@ export IEA_PWD=...
 ```
  ./download.py
 ```
+
+Usage with MS Windows
+=====================
+
+1. set up environment variables **IEA_USER** and **IEA_PWD** (or change the default value variable values in the script):
+
+```
+set IEA_USER=...
+set IEA_PWD=...
+```
+
+2. run `download.py`:
+
+```
+python3 ./download.py
+```

@@ -13,6 +13,10 @@ source_url = "http://mods.iea.org/sdbs/supply.zip"
 destination_filename = source_url.split('/')[-1]
 
 req = requests.get(source_url, auth=(iea_user, iea_pwd), stream=True)
+if req.status_code != 200:
+    print("*** Failed to connect. Status code: {}".format(req.status_code))
+    exit(-1)
+
 with open(destination_filename, "wb") as f:
     for chunk in req.iter_content(chunk_size=1024):
         if chunk:
