@@ -9,3 +9,20 @@ The final script only has to do the following:
 
 login details cant be shared for obvious reason. I will test out the script as soon as it's sent to me.
 
+
+Installation and usage
+======================
+
+1. source `intall.sh`:
+
+ . ./install.sh
+
+2. set up environment variables **IEA_USER** and **IEA_PWD** (or change the default value variable values in the script):
+
+ export IEA_USER=...
+ export IEA_PWD=...
+
+3. run `download.py`:
+
+ ./download.py
+
