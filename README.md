@@ -1,5 +1,17 @@
 # Python3 Sripts for File Download and Handling
 
+Table of Contents
+=================
+
+  * [Python3 Sripts for File Download and Handling](#python3-sripts-for-file-download-and-handling)
+    * [Original Desctipions](#original-desctipions)
+      * [Task #1: Python3 script to extract zip file from website (fast job)](#task-1-python3-script-to-extract-zip-file-from-website-fast-job)
+  * [Details](#details)
+      * [Task #2: Python3 script to download XLS workbooks](#task-2-python3-script-to-download-xls-workbooks)
+    * [Installation and usage](#installation-and-usage)
+  * [Usage with MS Windows](#usage-with-ms-windows)
+
+
 ## Original Desctipions
 
 ### Task #1: Python3 script to extract zip file from website (fast job)
@@ -46,8 +58,7 @@ export IEA_PWD=...
  ./download_xls.py
 ```
 
-Usage with MS Windows
-=====================
+## Usage with MS Windows
 
 1. set up environment variables **IEA_USER** and **IEA_PWD** (or change the default value variable values in the script):
 
