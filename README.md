@@ -4,7 +4,7 @@ Table of Contents
 =================
 
   * [Python3 Sripts for File Download and Handling](#python3-sripts-for-file-download-and-handling)
-    * [Original Desctipions](#original-desctipions)
+    * [Original Desctipions](#original-descripions)
       * [Task #1: Python3 script to extract zip file from website (fast job)](#task-1-python3-script-to-extract-zip-file-from-website-fast-job)
   * [Details](#details)
       * [Task #2: Python3 script to download XLS workbooks](#task-2-python3-script-to-download-xls-workbooks)
@@ -12,7 +12,7 @@ Table of Contents
   * [Usage with MS Windows](#usage-with-ms-windows)
 
 
-## Original Desctipions
+## Original Descripions
 
 ### Task #1: Python3 script to extract zip file from website (fast job)
 
