@@ -1,3 +1,9 @@
+# Python3 Sripts for File Download and Handling
+
+## Original Desctipions
+
+### Task #1: Python3 script to extract zip file from website (fast job)
+
 > Details
 > =======
 > 
@@ -9,9 +15,12 @@
 > 
 > login details cant be shared for obvious reason. I will test out the script as soon as it's sent to me.
 
+### Task #2: Python3 script to download XLS workbooks
 
-Installation and usage
-======================
+> need python script to extract all the xls and compile into workbooks from "http://www.eppo.go.th/info/cd-2015/index.html". 
+> workbooks will be titled "CHAPTER 1 : ENERGY SITUATION IN 2014" ... "CHAPTER 9 : AIR POLLUTION EMISSION IN THE ENERGY SECTOR"
+
+## Installation and usage
 
 1. source `intall.sh`:
 ```
@@ -25,10 +34,16 @@ export IEA_USER=...
 export IEA_PWD=...
 ```
 
-3. run `download.py`:
+3. run `download.py` to download ZIP file:
 
 ```
  ./download.py
+```
+
+4 to download XLS workbooks:
+
+```
+ ./download_xls.py
 ```
 
 Usage with MS Windows
